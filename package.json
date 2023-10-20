@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "assignment_003": "workspace:^",
+    "express": "^4.18.2"
+  }
 }
