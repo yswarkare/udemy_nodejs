@@ -1,8 +1,8 @@
 packages:
   # all packages in direct subdirs of packages/
   - 'packages/*'
-  # all packages in subdirs of nodejs-assignments/
   - 'nodejs-assignments/*'
-  # - 'components/**'
+  # all packages in subdirs of nodejs-assignments/
+  - 'course-resources/**'
   # exclude packages that are inside test directories
   - '!**/test/**'

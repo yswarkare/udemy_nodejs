@@ -1,0 +1,11 @@
+# Useful Resources & Links
+
+Attached, you find the source code for this section.
+
+Useful resources:
+
+MDN JavaScript Tutorial: https://developer.mozilla.org/en-US/docs/Learn/JavaScript
+
+Academind JS Resources: https://academind.com/learn/javascript
+
+Resources for this lecture
