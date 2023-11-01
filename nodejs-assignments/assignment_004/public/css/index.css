@@ -1,0 +1,54 @@
+*,
+body {
+	font-family: monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+		sans-serif;
+}
+
+label,
+label > span,
+input[type='submit'] {
+	font-family: 'JetBrains Mono', monospace, Verdana, Geneva, Tahoma, sans-serif;
+	font-size: large;
+	font-weight: 700;
+}
+
+input {
+	font-family: 'JetBrains Mono', monospace, Verdana, Geneva, Tahoma, sans-serif;
+	font-size: large;
+}
+
+.font-primary {
+	font-family: 'JetBrains Mono', monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+		Verdana, sans-serif;
+}
+
+.font-secondary {
+	font-family: monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+		sans-serif;
+}
+
+.user-form {
+  display: flex;
+	flex-direction: column;
+}
+
+.register-user-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+	gap: 1rem;
+	max-width: -moz-fit-content;
+	max-width: fit-content;
+}
+
+.form-item {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+  width: 100%;
+}
+
+.form-btn-submit {
+  justify-content: center;
+}
