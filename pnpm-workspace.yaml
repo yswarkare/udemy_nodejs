@@ -1,5 +1,6 @@
 packages:
   # all packages in direct subdirs of packages/
+  - 'apps/*'
   - 'packages/*'
   - 'nodejs-assignments/*'
   # all packages in subdirs of nodejs-assignments/
