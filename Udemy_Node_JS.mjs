@@ -23,6 +23,11 @@
 // ];
 
 const arrList = {
+	1: '00:40:00',
+	2: '00:51:00',
+	3: '01:33:00',
+	4: '00:48:00',
+	5: '01:34:00',
 	6: '02:03:00',
 	7: '00:44:00',
 	8: '00:36:00',
@@ -36,13 +41,36 @@ const arrList = {
 	16: '00:10:00',
 	17: '00:36:00',
 	18: '01:16:00',
+	19: '00:48:00',
+	20: '01:11:00',
+	21: '00:26:00',
+	22: '00:26:00',
+	23: '00:29:00',
+	24: '01:03:00',
+	25: '02:30:00',
+	26: '00:14:00',
+	27: '00:37:00',
+	28: '02:47:00',
+	29: '01:02:00',
+	30: '01:42:00',
+	31: '00:22:00',
+	32: '00:26:00',
+	33: '01:30:00',
+	34: '01:34:00',
+	35: '00:38:00',
+	36: '00:03:00',
 };
 
-const addTime = (sectionArr) => {
+const addTime = (start, end) => {
+	if (start > end) return 'start is greater than end';
+	if (start < 0 || start > 36 || end < 1 || end > 36) return 'enter valid start and end points';
 	let hrs = 0,
 		mins = 0,
 		secs = 0;
-	Object.values(sectionArr).forEach((el) => {
+	const moduleIds = Object.keys(arrList).filter((key) => key >= start && key <= end);
+	Object.entries(arrList);
+	moduleIds.forEach((id) => {
+		const el = arrList[id];
 		const [_hrs, _mins, _secs] = el.split(':');
 		hrs += parseInt(_hrs);
 		mins += parseInt(_mins);
@@ -61,4 +89,9 @@ const addTime = (sectionArr) => {
 	return result;
 };
 
-addTime([arrList[13], arrList[14], arrList[15]]);
+console.log('completed =>');
+addTime(1, 14);
+console.log("current target =>")
+addTime(15, 18);
+console.log('remaining =>');
+addTime(19, 36);
