@@ -1,0 +1,43 @@
+import { Section, calcProgress } from './CourseCalc.ts';
+
+const arrList = {
+	1: new Section(1, '00:40:00', ''),
+	2: new Section(2, '00:51:00', ''),
+	3: new Section(3, '01:33:00', ''),
+	4: new Section(4, '00:48:00', ''),
+	5: new Section(5, '01:34:00', ''),
+	6: new Section(6, '02:03:00', ''),
+	7: new Section(7, '00:44:00', ''),
+	8: new Section(8, '00:36:00', ''),
+	9: new Section(9, '01:39:00', ''),
+	10: new Section(10, '00:53:00', ''),
+	11: new Section(11, '01:52:00', ''),
+	12: new Section(12, '02:19:00', ''),
+	13: new Section(13, '01:17:00', ''),
+	14: new Section(14, '01:13:00', ''),
+	15: new Section(15, '01:10:00', ''),
+	16: new Section(16, '00:10:00', ''),
+	17: new Section(17, '00:36:00', ''),
+	18: new Section(18, '01:16:00', ''),
+	19: new Section(19, '00:48:00', ''),
+	20: new Section(20, '01:11:00', ''),
+	21: new Section(21, '00:26:00', ''),
+	22: new Section(22, '00:26:00', ''),
+	23: new Section(23, '00:29:00', ''),
+	24: new Section(24, '01:03:00', ''),
+	25: new Section(25, '02:30:00', ''),
+	26: new Section(26, '00:14:00', ''),
+	27: new Section(27, '00:37:00', ''),
+	28: new Section(28, '02:47:00', ''),
+	29: new Section(29, '01:02:00', ''),
+	30: new Section(30, '01:42:00', ''),
+	31: new Section(31, '00:22:00', ''),
+	32: new Section(32, '00:26:00', ''),
+	33: new Section(33, '01:30:00', ''),
+	34: new Section(34, '01:34:00', ''),
+	35: new Section(35, '00:38:00', ''),
+	36: new Section(36, '00:03:00', ''),
+};
+
+const progress = calcProgress(arrList, 18, 24);
+console.table(progress);
