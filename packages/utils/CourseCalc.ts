@@ -80,7 +80,9 @@ export const calcProgress = (sections: { [x: string]: Section }, start: number, 
 		return null;
 	}
 
-  let prevIds: string[] = [], currIds: string[] = [], nextIds: string[] = [];
+	let prevIds: string[] = [],
+		currIds: string[] = [],
+		nextIds: string[] = [];
 	[prevIds, currIds, nextIds] = [[], [], []];
 	Object.keys(sections).forEach((key) => {
 		if (parseInt(key) < start) {
