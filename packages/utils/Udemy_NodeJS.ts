@@ -39,5 +39,5 @@ const arrList = {
 	36: new Section(36, '00:03:00', 'Roundup'),
 };
 
-const progress = calcProgress(arrList, 21, 24);
+const progress = calcProgress(arrList, 25, 27);
 console.table(progress);
