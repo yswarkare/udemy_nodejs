@@ -39,5 +39,6 @@ const arrList = {
 	36: new Section(36, '00:03:00', 'Roundup'),
 };
 
-const progress = calcProgress(arrList, 25, 27);
+const progress = calcProgress(arrList, 27, 30);
+console.info('Udemy Node.js');
 console.table(progress);

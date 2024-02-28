@@ -1,3 +1,4 @@
-import add from './main.js';
+import { add } from 'rest-api-utils';
 
-add(5, 4);
+const sum = add(5, 6);
+console.log({ sum });

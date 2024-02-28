@@ -1,4 +1,5 @@
 import { Section, calcProgress } from './Udemy_Node_JS_002.mjs';
+import { consola } from "consola"
 
 const arrList = {
 	1: new Section(1, '00:40:00', 'Introduction'),
@@ -40,4 +41,5 @@ const arrList = {
 };
 
 const progress = calcProgress(arrList, 18, 24);
+consola.success('Udemy Node.js');
 console.table(progress);
