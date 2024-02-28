@@ -1,0 +1,31 @@
+# Todo app with TypeScript
+
+A simple todo app with TypeScript, NodeJS, ExpressJS and MongoDB.
+
+Installed dependencies
+
+```json
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-winston": "^4.2.0",
+    "mongodb": "^6.2.0",
+    "mongoose": "^8.0.0",
+    "winston": "^3.11.0"
+  },
+```
+
+Installed devDependencies
+
+```json
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.9.0",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+```
